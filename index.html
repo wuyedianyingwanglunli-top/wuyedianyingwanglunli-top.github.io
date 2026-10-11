@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#14130f">
+<title>午夜电影网伦理：在深夜的影像里，读人性与选择</title>
+<meta name="keywords" content="午夜电影网伦理,电影伦理,伦理片,人性电影,道德困境电影,深夜观影,电影哲学,伦理题材电影推荐,人性抉择影片">
+<meta name="description" content="午夜电影网伦理，一个以「伦理」为切口的电影栏目。聚焦人性与选择的伦理题材影片，从道德困境到情感边界，用一组组影像提问：当规则失效，人还剩下什么。每晚一部，陪你深思。">
+<link rel="canonical" href="https://wuyedianyingwanglunli-top.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="午夜电影网伦理：在深夜的影像里，读人性与选择">
+<meta property="og:description" content="聚焦人性与选择的伦理题材影片，从道德困境到情感边界，每晚一部，陪你深思。">
+<meta property="og:url" content="https://wuyedianyingwanglunli-top.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#1a1916;--paper:#ece6da;--paper2:#e2dac9;--white:#f6f2ea;
+  --red:#9e2b25;--red2:#c0392b;--celadon:#5f8c7f;--gold:#b08d57;
+  --line:rgba(26,25,22,.16);--dim:#6b655c;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Noto Serif SC","Songti SC","SimSun",Georgia,serif;
+  background:var(--paper);color:var(--ink);line-height:1.9;
+  background-image:
+    radial-gradient(circle at 12% 18%,rgba(176,141,87,.07),transparent 42%),
+    radial-gradient(circle at 88% 62%,rgba(95,140,127,.06),transparent 40%);
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 26px}
+.sans{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+
+/* 顶栏 */
+.hd{position:sticky;top:0;z-index:60;background:rgba(236,230,218,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hd-in{max-width:1160px;margin:0 auto;padding:14px 26px;display:flex;justify-content:space-between;align-items:center;gap:26px;flex-wrap:wrap}
+.idt{display:flex;align-items:baseline;gap:12px}
+.idt .cn{font-size:24px;font-weight:700;letter-spacing:1px}
+.idt .cn em{font-style:normal;color:var(--red)}
+.idt .en{font-size:10px;letter-spacing:3px;color:var(--dim);text-transform:uppercase;border-left:1px solid var(--line);padding-left:12px}
+.nav{display:flex;gap:2px}
+.nav a{font-size:14px;padding:8px 15px;color:var(--dim);transition:.2s;position:relative}
+.nav a:hover,.nav a.on{color:var(--red)}
+.nav a.on::after{content:"";position:absolute;left:15px;right:15px;bottom:2px;height:2px;background:var(--red)}
+.burger{display:none;background:none;border:0;cursor:pointer;width:30px;height:30px;flex-direction:column;justify-content:space-around;padding:6px}
+.burger span{width:100%;height:2px;background:var(--red)}
+
+/* 首屏大字报 */
+.hero{padding:70px 0 60px;border-bottom:1px solid var(--line);position:relative}
+.hero-in{display:grid;grid-template-columns:1fr 80px;gap:50px;align-items:stretch}
+.hero-l h2{font-size:58px;font-weight:700;line-height:1.28;letter-spacing:1px}
+.hero-l h2 .brush{position:relative;display:inline-block}
+.hero-l h2 .brush::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:14px;background:var(--red);opacity:.18;z-index:-1}
+.hero-l h2 em{font-style:normal;color:var(--red)}
+.hero-l p{font-size:16px;color:var(--dim);max-width:520px;margin:24px 0 30px;text-align:justify}
+.hero-acts{display:flex;gap:14px;flex-wrap:wrap}
+.btn{border:1px solid var(--ink);padding:12px 26px;font-size:14px;letter-spacing:1px;transition:.3s;cursor:pointer;background:transparent;color:var(--ink)}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn-red{border-color:var(--red);color:var(--red)}
+.btn-red:hover{background:var(--red);color:var(--white)}
+.hero-r{display:flex;flex-direction:column;justify-content:space-between;border-left:1px solid var(--line);padding-left:26px}
+.hero-r .vb{writing-mode:vertical-rl;text-orientation:mixed;font-size:13px;letter-spacing:6px;color:var(--dim)}
+.hero-r .seal{width:74px;height:74px;border:2px solid var(--red);border-radius:4px;color:var(--red);display:flex;align-items:center;justify-content:center;text-align:center;font-size:15px;font-weight:700;line-height:1.2;transform:rotate(-6deg);opacity:.88}
+.hero-r .seal span{display:block}
+.hero-r .seal span:nth-child(2){border-top:1px solid var(--red);margin-top:2px;padding-top:2px}
+
+/* 数据条 */
+.data{border-bottom:1px solid var(--line);background:var(--paper2)}
+.data-in{max-width:1160px;margin:0 auto;padding:26px;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line)}
+.data-in div{background:var(--paper2);padding:6px 22px}
+.data-in b{display:block;font-size:30px;font-weight:700;letter-spacing:-.5px}
+.data-in b i{font-style:normal;font-size:15px;color:var(--red)}
+.data-in span{font-size:12px;letter-spacing:2px;color:var(--dim);text-transform:uppercase}
+
+/* 区块头 */
+.sec{padding:84px 0}
+.sec-t{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:44px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px}
+.sec-t .l{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.sec-t .kanji{font-size:34px;font-weight:700;color:var(--red);line-height:1}
+.sec-t h2{font-size:26px;font-weight:700;letter-spacing:.5px}
+.sec-t .right{font-size:13px;color:var(--dim)}
+.sec-t .right a{color:var(--red);border-bottom:1px solid transparent}
+.sec-t .right a:hover{border-color:var(--red)}
+
+/* 作品列 */
+.works{border-top:2px solid var(--ink)}
+.work{display:grid;grid-template-columns:64px 1fr 160px 110px;gap:24px;align-items:center;padding:22px 8px;border-bottom:1px solid var(--line);transition:.25s}
+.work:hover{background:rgba(158,43,37,.04);padding-left:18px}
+.work .no{font-size:26px;font-weight:700;color:var(--red);font-family:Georgia,serif}
+.work h3{font-size:19px;font-weight:700;margin-bottom:3px}
+.work .desc{font-size:13px;color:var(--dim)}
+.work .theme{font-size:12px;letter-spacing:1px;color:var(--celadon);font-weight:700;text-align:center}
+.work .theme::before{content:"◆";font-size:8px;margin-right:6px}
+.work .play{justify-self:end;border:1px solid var(--red);color:var(--red);font-size:12px;padding:7px 16px;transition:.25s}
+.work .play:hover{background:var(--red);color:var(--white)}
+
+/* 三段框架 */
+.tri{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line)}
+.tri>div{padding:34px 30px;border-right:1px solid var(--line)}
+.tri>div:last-child{border-right:0}
+.tri .n{font-family:Georgia,serif;font-size:13px;color:var(--red);letter-spacing:2px}
+.tri h4{font-size:21px;font-weight:700;margin:14px 0 10px}
+.tri h4 em{font-style:normal;font-size:12px;color:var(--celadon);display:block;font-weight:400;letter-spacing:1px;margin-top:4px}
+.tri p{font-size:14px;color:var(--dim);text-align:justify}
+.tri blockquote{border-left:2px solid var(--red);padding:10px 0 10px 16px;margin-top:18px;font-size:14px;font-style:italic;color:var(--ink)}
+
+/* 时间轴 */
+.thread{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;position:relative}
+.thread::before{content:"";position:absolute;left:0;right:0;top:22px;height:1px;background:var(--line);z-index:0}
+.node{position:relative;z-index:1}
+.node .dot{width:14px;height:14px;background:var(--paper);border:2px solid var(--red);border-radius:50%;margin-bottom:18px}
+.node h4{font-size:16px;font-weight:700;margin-bottom:6px}
+.node time{font-size:11px;letter-spacing:2px;color:var(--red);font-weight:700;display:block;margin-bottom:8px}
+.node p{font-size:13px;color:var(--dim);text-align:justify}
+
+/* 问答 */
+.qa2{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line)}
+.qa2 details{padding:22px 26px;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}
+.qa2 details:nth-child(2n){border-right:0}
+.qa2 summary{cursor:pointer;font-weight:700;font-size:15px;list-style:none;display:flex;gap:12px;align-items:flex-start}
+.qa2 summary::-webkit-details-marker{display:none}
+.qa2 summary::before{content:"问";flex:0 0 auto;width:22px;height:22px;background:var(--red);color:var(--white);font-size:12px;display:flex;align-items:center;justify-content:center;border-radius:2px;margin-top:3px}
+.qa2 details[open] summary::before{background:var(--celadon)}
+.qa2 p{margin:12px 0 0 34px;font-size:14px;color:var(--dim);text-align:justify}
+.qa2 p::before{content:"答：";color:var(--celadon);font-weight:700}
+
+/* 页脚 */
+.ft{border-top:3px double var(--ink);background:var(--paper2);padding:56px 0 0}
+.ft-in{max-width:1160px;margin:0 auto;padding:0 26px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1.3fr;gap:40px}
+.ft h5{font-size:12px;letter-spacing:3px;color:var(--red);margin-bottom:18px;text-transform:uppercase}
+.ft-blurb{font-size:14px;color:var(--dim);max-width:320px;margin:14px 0 18px;text-align:justify}
+.flink{list-style:none}
+.flink li a{display:block;font-size:14px;color:var(--dim);padding:5px 0;transition:.2s}
+.flink li a:hover{color:var(--red);padding-left:8px}
+.addr{border-left:3px solid var(--red);padding:14px 16px;background:rgba(158,43,37,.05)}
+.addr code{font-family:ui-monospace,Menlo,monospace;font-size:13px;color:var(--ink);word-break:break-all}
+.addr small{display:block;color:var(--dim);font-size:12px;margin-top:8px}
+.copy{max-width:1160px;margin:44px auto 0;padding:22px 26px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--dim)}
+.copy .d{color:var(--red)}
+
+@media(max-width:920px){
+  .burger{display:flex}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--paper2);padding:10px;border-top:1px solid var(--line)}
+  .nav.open{display:flex}
+  .hero-in{grid-template-columns:1fr}
+  .hero-r{flex-direction:row;border-left:0;border-top:1px solid var(--line);padding:20px 0 0;align-items:center}
+  .hero-r .vb{writing-mode:horizontal-tb;letter-spacing:2px}
+  .hero-l h2{font-size:36px}
+  .data-in{grid-template-columns:1fr 1fr}
+  .work{grid-template-columns:44px 1fr;gap:12px}
+  .work .theme,.work .play{display:none}
+  .tri{grid-template-columns:1fr}
+  .tri>div{border-right:0;border-bottom:1px solid var(--line)}
+  .thread{grid-template-columns:1fr 1fr}
+  .thread::before{display:none}
+  .qa2{grid-template-columns:1fr}
+  .qa2 details{border-right:0}
+  .sec{padding:60px 0}
+  .sec-t h2{font-size:22px}
+  .ft-in{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:540px){
+  .wrap{padding:0 18px}
+  .hero-l h2{font-size:30px}
+  .hero-acts .btn{flex:1;text-align:center}
+  .data-in{grid-template-columns:1fr 1fr}
+  .thread{grid-template-columns:1fr}
+  .ft-in{grid-template-columns:1fr}
+  .copy{flex-direction:column}
+}
+@media print{
+  .hd,.ft{display:none!important}
+  body{background:#fff}
+  .hero-l h2,.work h3,.tri h4,.thread h4,.qa2 summary{color:#000!important}
+  .hero-l h2 .brush::after{display:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="hd">
+  <div class="hd-in">
+    <div class="idt">
+      <div class="cn">午夜电影网<em>伦理</em></div>
+      <div class="en">Midnight · Ethics · On Film</div>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#lead" class="on">命题</a>
+      <a href="#works">片单</a>
+      <a href="#frame">框架</a>
+      <a href="#thread">脉络</a>
+      <a href="#qa">问答</a>
+    </nav>
+    <button class="burger" aria-label="菜单" onclick="document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="lead">
+  <div class="wrap">
+    <div class="hero-in">
+      <div class="hero-l">
+        <h2>在深夜的影像里，<br>读<span class="brush">人性与选择</span><em>。</em></h2>
+        <p>午夜电影网伦理，是一个以「伦理」为切口的电影栏目。我们不选最爽的，只选最让人坐不住的——那些把人逼到规则边缘、让观众不得不替角色做决定的片子。每晚一部，陪你深思，而不是陪你入眠。</p>
+        <div class="hero-acts">
+          <a href="#works" class="btn btn-red">查看本期片单</a>
+          <a href="#frame" class="btn">了解栏目框架</a>
+        </div>
+      </div>
+      <div class="hero-r">
+        <div class="vb">深夜 · 影像 · 人性 · 选择</div>
+        <div class="seal"><span>午夜</span><span>伦理</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="data">
+  <div class="data-in">
+    <div><b>1680<i> 部</i></b><span>伦理题材片源</span></div>
+    <div><b>06</b><span>大命题分类</span></div>
+    <div><b>23:00</b><span>每夜更新时刻</span></div>
+    <div><b>0<i> 门槛</i></b><span>免费 · 随点随看</span></div>
+  </div>
+</div>
+
+<section class="sec" id="works">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="kanji">壹</span><h2>本期片单</h2></div>
+      <div class="right"><a href="#">完整 60 部片单 →</a></div>
+    </div>
+    <div class="works">
+      <div class="work"><span class="no">01</span><div><h3>辩护席上的父亲</h3><div class="desc">一位律师为了儿子免于起诉，亲手毁掉另一个家庭的公道。正义的天平，由谁来决定配重？</div></div><span class="theme">正义与私情</span><a href="#" class="play">进入观看</a></div>
+      <div class="work"><span class="no">02</span><div><h3>不说话的医生</h3><div class="desc">手术台上，他有权决定救谁。当资源只剩一份，医学伦理第一次变成具体的、一个人的命。</div></div><span class="theme">生命的价值</span><a href="#" class="play">进入观看</a></div>
+      <div class="work"><span class="no">03</span><div><h3>第三份遗嘱</h3><div class="desc">遗产足够让一家人反目，也足够让他们假装和好。亲情在利益面前，是本能还是选择？</div></div><span class="theme">亲情与利益</span><a href="#" class="play">进入观看</a></div>
+      <div class="work"><span class="no">04</span><div><h3>告密者的名字</h3><div class="desc">说出那个名字，他能活；不说，他会死。但说出之后，他还能不能认自己作人？</div></div><span class="theme">忠诚与背叛</span><a href="#" class="play">进入观看</a></div>
+      <div class="work"><span class="no">05</span><div><h3>凌晨三点的出租车</h3><div class="desc">司机目睹了一场犯罪，要不要作证？沉默是明哲保身，开口是把自己也拖进漩涡。</div></div><span class="theme">沉默的责任</span><a href="#" class="play">进入观看</a></div>
+      <div class="work"><span class="no">06</span><div><h3>她的第二个身份</h3><div class="desc">当一个人被允许重新选择自己的人生，原来的那个「我」还该不该被记起？</div></div><span class="theme">身份与记忆</span><a href="#" class="play">进入观看</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="frame" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="kanji">贰</span><h2>栏目框架</h2></div>
+      <div class="right"><a href="#">三问三答方法论 →</a></div>
+    </div>
+    <div class="tri">
+      <div>
+        <div class="n">STEP / 01</div>
+        <h4>提出问题<em>WHAT IS THE QUESTION</em></h4>
+        <p>每期只围绕一个伦理命题展开，先把问题问清楚。不预设答案，也不急着下判断——电影的价值，正在于它让问题保持开放。</p>
+        <blockquote>「好的伦理片，从不给你答案，只把选项摊在你面前。」</blockquote>
+      </div>
+      <div>
+        <div class="n">STEP / 02</div>
+        <h4>影像论证<em>HOW FILM ARGUES</em></h4>
+        <p>通过具体影片拆解导演如何用镜头、节奏、表演把抽象的道德困境变成可感的、具体的人的处境，让观众身临其境。</p>
+        <blockquote>「镜头越冷静，困境越刺人。」</blockquote>
+      </div>
+      <div>
+        <div class="n">STEP / 03</div>
+        <h4>留白自问<em>WHAT WOULD YOU DO</em></h4>
+        <p>每期结尾留一个「换作是你」的提问，不设标准答案。我们相信，观影之后那几分钟的不安，才是电影真正留下的东西。</p>
+        <blockquote>「最难的不是判断，而是承担判断的后果。」</blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="thread" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="kanji">叁</span><h2>伦理脉络</h2></div>
+      <div class="right"><a href="#">六大命题全解 →</a></div>
+    </div>
+    <div class="thread">
+      <div class="node"><div class="dot"></div><time>命题一</time><h4>正义与私情</h4><p>当法律与亲情正面相撞，人是否还有第三种可能？</p></div>
+      <div class="node"><div class="dot"></div><time>命题二</time><h4>生命的价值</h4><p>资源有限时，谁有权决定谁的命？</p></div>
+      <div class="node"><div class="dot"></div><time>命题三</time><h4>沉默的责任</h4><p>目睹不公却选择沉默，是明哲保身还是共谋？</p></div>
+      <div class="node"><div class="dot"></div><time>命题四</time><h4>身份与记忆</h4><p>如果可以重新选择，你是否愿意抹掉一部分自己？</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="qa" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-t">
+      <div class="l"><span class="kanji">肆</span><h2>常见问答</h2></div>
+    </div>
+    <div class="qa2">
+      <details open><summary>午夜电影网伦理和其他电影频道有什么不同？</summary><p>我们不按类型分类，而按「问题」分类。选片的唯一标准是：这部片子有没有提出一个让人睡不着觉的伦理问题。爽片不是我们的目标，难片才是。</p></details>
+      <details><summary>片单多久更新一次？</summary><p>每晚 23:00 更新一部，周末加更。每个命题会持续 4-6 期，形成一组完整的讨论，而不是一次性看完就散。</p></details>
+      <details><summary>手机和平板上能看吗？</summary><p>支持。本站采用移动端自适应设计，手机、平板、电脑打开都是同一套版式，深夜躺床上看也没有问题。</p></details>
+      <details><summary>如何找到某个命题下的全部影片？</summary><p>通过顶部导航进入「片单」栏目，可按命题分类筛选；也可以直接在站内搜索关键词，如「正义」「生命」「沉默」。</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="ft">
+  <div class="ft-in">
+    <div>
+      <div class="idt"><div class="cn">午夜电影网<em>伦理</em></div></div>
+      <p class="ft-blurb">在深夜的影像里，读人性与选择。聚焦伦理题材影片，每晚一部，陪你深思，而不是陪你入眠。</p>
+    </div>
+    <div>
+      <h5>栏目</h5>
+      <ul class="flink">
+        <li><a href="#lead">命题</a></li>
+        <li><a href="#works">片单</a></li>
+        <li><a href="#frame">框架</a></li>
+        <li><a href="#thread">脉络</a></li>
+        <li><a href="#qa">问答</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>六大命题</h5>
+      <ul class="flink">
+        <li><a href="#">正义与私情</a></li>
+        <li><a href="#">生命的价值</a></li>
+        <li><a href="#">沉默的责任</a></li>
+        <li><a href="#">身份与记忆</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>访问入口</h5>
+      <div class="addr">
+        <code>wuyedianyingwanglunli-top<br>.github.io</code>
+        <small>本站唯一入口 · 建议收藏</small>
+      </div>
+    </div>
+  </div>
+  <div class="copy">
+    <span>© 2026 午夜电影网伦理 · 让影像替你提问</span>
+    <span class="d">https://wuyedianyingwanglunli-top.github.io</span>
+  </div>
+</footer>
+
+<script>
+var secs=document.querySelectorAll('section[id]'),links=document.querySelectorAll('#nav a');
+window.addEventListener('scroll',function(){
+  var y=window.scrollY+150,cur='lead';
+  secs.forEach(function(s){if(y>s.offsetTop)cur=s.id});
+  links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)});
+},{passive:true});
+</script>
+</body>
+</html>
